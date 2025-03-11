@@ -51,12 +51,18 @@
       ".dev.vars": "dotenv",
       ".env*": "dotenv"
     },
+    "files.exclude": {
+      "**/node_modules": false
+    }
   },
   "extensions": {
     "recommendations": [
       "dbaeumer.vscode-eslint",
       "qwtel.sqlite-viewer",
-      "wallabyjs.console-ninja"
+      "wallabyjs.console-ninja",
+      "prisma.prisma",
+      "abians.prisma-generate-uml",
+      "prisma.prisma-insider"
     ],
     "unwantedRecommendations": []
   }

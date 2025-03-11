@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  gympass-api:
+    image: bitnami/postgresql
+    container_name: gympass_container
+    restart: always
+    environment:
+      - POSTGRESQL_USERNAME=docker
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=apigympass
+    ports:
+      - "5432:5432"
+
