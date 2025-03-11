@@ -1,0 +1,63 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // ====== Início configurações de aparência ====== //
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 12,
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "on",
+      "strings": "on"
+    },
+    // ====== fim configurações de aparência ====== //
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "graphql"
+    ],
+    "eslint.run": "onSave",
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "typescript": "tsx"
+    },
+    "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+    },
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    "typescript.suggest.autoImports": true,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "files.associations": {
+      "*.embeddedhtml": "html",
+      ".env.*": "dotenv",
+      ".prettierrc": "json",
+      "*.css": "css",
+      ".dev.vars": "dotenv",
+      ".env*": "dotenv"
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "qwtel.sqlite-viewer",
+      "wallabyjs.console-ninja"
+    ],
+    "unwantedRecommendations": []
+  }
+}
