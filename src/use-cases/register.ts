@@ -8,8 +8,6 @@ interface RegisterUseCaseRequest {
   email: string
   password: string
 }
-// SOLID -> Uncle Bob (Clean Arch)
-// D => Dependency Invertion Principle
 
 interface RegisterUseCaseResponse {
   user: User
