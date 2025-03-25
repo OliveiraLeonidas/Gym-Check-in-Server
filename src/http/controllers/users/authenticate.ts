@@ -38,6 +38,4 @@ export async function authenticate(
 
     throw error
   }
-
-  return reply.send(200).send()
 }
