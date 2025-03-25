@@ -7,7 +7,7 @@
   "scripts": {
     "start:dev": "tsx watch ./src/server.ts",
     "start": "node build/server.js",
-    "test:create-prisma-environment": "cd ./prisma/vitest-environment-prisma && npm link && cd ../..",
+    "test:create-prisma-environment": "cd prisma/vitest-environment-prisma/ && npm link && cd ../..",
     "test:install-prisma-environment": "npm link vitest-environment-prisma",
     "build": "tsup src --out-dir build",
     "generate": "npx prisma generate",
@@ -34,7 +34,7 @@
     "@vitest/ui": "3.0.9",
     "eslint": "8.57.1",
     "globals": "16.0.0",
-    "npm-run-all": "4.1.5",
+    "npm-run-all2": "7.0.2",
     "prisma": "6.4.1",
     "supertest": "7.1.0",
     "tsx": "4.19.3",
@@ -43,6 +43,7 @@
     "vitest": "3.0.9"
   },
   "dependencies": {
+    "@fastify/cookie": "11.0.2",
     "@fastify/jwt": "9.1.0",
     "@prisma/client": "6.4.1",
     "bcryptjs": "3.0.2",
