@@ -29,5 +29,5 @@ jobs:
 
       - run: npm run test:e2e
         env:
-          JWT_SECRETE: testing
+          JWT_SECRET: testing
           DATABASE_URL: "postgresql://docker:docker@localhost:5432/apigympass?schema=public"
