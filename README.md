@@ -1,5 +1,16 @@
 # Check-in App to GymPass
 
+# Ferramentas
+
+- Typescript
+- Fastify
+- Vitest
+- zod
+- prisma orm
+- eslint
+
+[npm run all2](https://github.com/bcomnes/npm-run-all2)
+
 ## Requisitos Funcionais
 
 - [x] Deve ser possível se cadastrar;
